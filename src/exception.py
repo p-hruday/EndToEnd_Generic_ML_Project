@@ -1,5 +1,6 @@
 import sys
-import logging
+from src.logger import logging
+
 
 def error_message_detail(error):
     # Use sys.exc_info to get the current exception information
